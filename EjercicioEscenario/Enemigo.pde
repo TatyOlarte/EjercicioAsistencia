@@ -17,7 +17,7 @@ class Enemigo{
   
   public void dibujar(){
     tint(colorear);
-    image(imagen,posicion.x,posicion.y);
+    image(imagen,this.posicion.x,this.posicion.y);
     imagen.resize(100,100);
   }
   
